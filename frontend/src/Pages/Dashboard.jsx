@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react";
 import { getLogs } from "../api/logApi";
 import useDebounce from "../hooks/useDebounce";
 
-import UploadFile from "../components/UploadFile";
-import SearchBar from "../components/SearchBar";
-import FilterBar from "../components/FilterBar";
-import LogTable from "../components/LogTable";
-import Pagination from "../components/Pagination";
-import Loader from "../components/Loader";
-import EmptyState from "../components/EmptyState";
+import UploadFile from "../Components/UploadFile";
+import SearchBar from "../Components/SearchBar";
+import FilterBar from "../Components/FilterBar";
+import LogTable from "../Components/LogTable";
+import Pagination from "../Components/Pagination";
+import Loader from "../Components/Loader";
+import EmptyState from "../Components/EmptyState";
 
 const Dashboard = () => {
   const [logs, setLogs] = useState([]);
