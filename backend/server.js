@@ -9,10 +9,10 @@ const errorHandler = require('./src/middlewares/errorHandler');
 
 
 app.use(cors({origin:"*"}));
-// app.use(cors({
-//   origin: "https://smart-reconciliation-system-gamma.vercel.app",
-//   credentials: true
-// }));
+ app.use(cors({
+   origin: "https://audit-log-system-iota.vercel.app",
+   credentials: true
+ }));
 app.use(express.json());
 
 
